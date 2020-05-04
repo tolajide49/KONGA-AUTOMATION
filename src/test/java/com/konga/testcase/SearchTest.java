@@ -18,8 +18,10 @@ public class SearchTest extends TestBase {
 		Thread.sleep(5000);
 		
 		Assert.assertTrue(isElementPresent(By.xpath(OR.getProperty("Element_XPATH"))), "Product not correct");
-
 	}
+	
+	
+	
 
 }
 

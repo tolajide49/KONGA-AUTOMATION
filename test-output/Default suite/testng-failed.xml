@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.konga.testcase.SuscribeLinkTest">
+      <class name="com.konga.testcase.FAQS">
         <methods>
           <include name="setUp"/>
+          <include name="FAQ"/>
           <include name="tearDown"/>
-          <include name="Suscribelink"/>
         </methods>
-      </class> <!-- com.konga.testcase.SuscribeLinkTest -->
+      </class> <!-- com.konga.testcase.FAQS -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

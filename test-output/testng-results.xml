@@ -1,41 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11468" started-at="2020-05-04T21:34:06 WAT" finished-at="2020-05-04T21:34:17 WAT">
+  <suite name="Default suite" duration-ms="11453" started-at="2020-05-05T00:39:48 WAT" finished-at="2020-05-05T00:39:59 WAT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11468" started-at="2020-05-04T21:34:06 WAT" finished-at="2020-05-04T21:34:17 WAT">
-      <class name="com.konga.testcase.Help">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.konga.testcase.Help@3e27ba32]" name="setUp" is-config="true" duration-ms="15346" started-at="2020-05-04T21:33:50 WAT" finished-at="2020-05-04T21:34:06 WAT">
+    <test name="Default test" duration-ms="11453" started-at="2020-05-05T00:39:48 WAT" finished-at="2020-05-05T00:39:59 WAT">
+      <class name="com.konga.testcase.Logout">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.konga.testcase.Logout@3e27ba32]" name="setUp" is-config="true" duration-ms="13244" started-at="2020-05-05T00:39:34 WAT" finished-at="2020-05-05T00:39:48 WAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ContactUs()[pri:0, instance:com.konga.testcase.Help@3e27ba32]" name="ContactUs" duration-ms="4355" started-at="2020-05-04T21:34:06 WAT" finished-at="2020-05-04T21:34:10 WAT">
+        <test-method status="PASS" signature="LogoutTest()[pri:0, instance:com.konga.testcase.Logout@3e27ba32]" name="LogoutTest" duration-ms="11412" started-at="2020-05-05T00:39:48 WAT" finished-at="2020-05-05T00:39:59 WAT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ContactUs -->
-        <test-method status="PASS" signature="FAQ()[pri:0, instance:com.konga.testcase.Help@3e27ba32]" name="FAQ" duration-ms="7018" started-at="2020-05-04T21:34:10 WAT" finished-at="2020-05-04T21:34:17 WAT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FAQ -->
-        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.konga.testcase.Help@3e27ba32]" name="tearDown" is-config="true" duration-ms="1182" started-at="2020-05-04T21:34:17 WAT" finished-at="2020-05-04T21:34:18 WAT">
+        </test-method> <!-- LogoutTest -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.konga.testcase.Logout@3e27ba32]" name="tearDown" is-config="true" duration-ms="1121" started-at="2020-05-05T00:39:59 WAT" finished-at="2020-05-05T00:40:00 WAT">
           <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
             <message>
               <![CDATA[Error communicating with the remote browser. It may have died.
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'YEAR2020', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_242'
 Driver info: driver.version: RemoteWebDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64344}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}), userDataDir=C:\Users\TAIWO\AppData\Local\Temp\scoped_dir15204_1293403996}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.113, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: caf11e879de1fd8f88f91b936cafbe79]]>
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55797}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}), userDataDir=C:\Users\TAIWO\AppData\Local\Temp\scoped_dir14016_1309638014}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.113, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 34f844b5873275e83d8511eb2a5363c1]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'YEAR2020', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_242'
 Driver info: driver.version: RemoteWebDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64344}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}), userDataDir=C:\Users\TAIWO\AppData\Local\Temp\scoped_dir15204_1293403996}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.113, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: caf11e879de1fd8f88f91b936cafbe79
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55797}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}), userDataDir=C:\Users\TAIWO\AppData\Local\Temp\scoped_dir14016_1309638014}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.113, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 34f844b5873275e83d8511eb2a5363c1
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
 at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:526)
@@ -83,7 +79,7 @@ at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:138)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.konga.testcase.Help -->
+      </class> <!-- com.konga.testcase.Logout -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
